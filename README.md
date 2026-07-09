@@ -3,27 +3,27 @@
 <p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
-![AI](https://img.shields.io/badge/AI-Gemini-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit)
+![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-orange?style=for-the-badge&logo=google)
+![NLP](https://img.shields.io/badge/NLP-Skill_Extraction-green?style=for-the-badge)
+
+</p>
+
+<p align="center">
+
+### 🚀 Live Demo
+
+**https://resumematcherai-w2p5bvrgd8zmge7qvvvuma.streamlit.app**
 
 </p>
 
 ---
 
-# 🚀 Live Demo
-
-### 🌐 Try the Application
-
-**https://resumematcherai-w2p5bvrgd8zmge7qvvvuma.streamlit.app**
-
----
-
 # 📌 Project Overview
 
-ResumeMatcher AI is an AI-powered Resume Screening and ATS Matching System built using **Python**, **Streamlit**, **Natural Language Processing (NLP)**, and **Google Gemini AI**.
+ResumeMatcher AI is an AI-powered Resume Screening and ATS Matching System developed using **Python**, **Streamlit**, **Natural Language Processing (NLP)**, and **Google Gemini AI**.
 
-The application helps recruiters, hiring managers, and job seekers evaluate resumes by comparing candidate skills with job descriptions, calculating an ATS match score, identifying skill gaps, and generating AI-powered hiring recommendations.
+The application automatically extracts resume content, identifies technical skills, compares them with job requirements, calculates an ATS match score, identifies missing skills, and generates AI-powered resume feedback with hiring recommendations.
 
 ---
 
@@ -31,34 +31,28 @@ The application helps recruiters, hiring managers, and job seekers evaluate resu
 
 - 📄 Upload Resume PDF
 - 🔍 Automatic Resume Text Extraction
-- 🧠 Technical Skill Detection
+- 🧠 Resume Skill Detection
 - 📋 Job Description Skill Extraction
 - 📊 ATS Match Score Calculation
 - ✅ Matched Skills Identification
 - ❌ Missing Skills Detection
-- 🤖 AI-Powered Resume Review
+- 🤖 AI Resume Review using Gemini AI
 - 💪 Resume Strength Analysis
 - ⚠️ Resume Weakness Analysis
 - 📈 Skill Gap Identification
 - 👨‍💼 Hiring Recommendation
 - 📥 Download Resume Review Report
-- 📊 Interactive Match Dashboard
+- 📊 Interactive Dashboard with Gauge Chart
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ System Architecture & Workflow
 
 <p align="center">
-<img src="assets/architecture.png" width="900">
+<img src="assets/ai_resume_diagrams.png" width="100%">
 </p>
 
----
-
-# 🔄 Workflow
-
-<p align="center">
-<img src="assets/workflow.png" width="900">
-</p>
+The diagram above illustrates the complete ResumeMatcher AI pipeline—from uploading a resume and job description, extracting text and skills, calculating the ATS match score, generating AI-powered feedback using Gemini AI, and presenting the results through an interactive Streamlit dashboard.
 
 ---
 
@@ -67,11 +61,11 @@ The application helps recruiters, hiring managers, and job seekers evaluate resu
 | Technology | Purpose |
 |------------|---------|
 | Python | Backend Development |
-| Streamlit | Web Application |
-| PyPDF | Resume Parsing |
-| NLP | Skill Extraction |
-| Gemini AI | Resume Review |
-| Plotly | Dashboard Visualization |
+| Streamlit | Interactive Web Application |
+| PyPDF | Resume PDF Parsing |
+| NLP | Skill Extraction & Matching |
+| Google Gemini AI | AI Resume Feedback |
+| Plotly | Match Score Dashboard |
 
 ---
 
@@ -81,8 +75,7 @@ The application helps recruiters, hiring managers, and job seekers evaluate resu
 ResumeMatcherAI/
 
 │── assets/
-│     ├── architecture.png
-│     └── workflow.png
+│     └── ai_resume_diagrams.png
 │
 │── modules/
 │     ├── gemini_ai.py
@@ -131,7 +124,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run Application
+## Run the Application
 
 ```bash
 streamlit run app.py
@@ -139,31 +132,31 @@ streamlit run app.py
 
 ---
 
-# 📊 Application Workflow
+# 🔄 Application Workflow
 
 1. Upload Resume PDF
 2. Extract Resume Text
-3. Detect Technical Skills
-4. Extract Job Description Skills
+3. Detect Resume Skills
+4. Read Job Description
 5. Compare Skills
 6. Calculate ATS Match Score
-7. Generate AI Resume Feedback
+7. Generate AI Feedback
 8. Display Dashboard
-9. Download Review Report
+9. Download Resume Review Report
 
 ---
 
-# 📈 Sample Output
+# 📊 Sample Output
 
 ### Resume Match Score
 
-```
+```text
 66.67%
 ```
 
 ### Matched Skills
 
-```
+```text
 Python
 SQL
 Machine Learning
@@ -172,26 +165,26 @@ Git
 
 ### Missing Skills
 
-```
+```text
 AWS
 Docker
 ```
 
 ### AI Recommendation
 
-```
+```text
 Suitable for Entry-Level AI Engineer Roles
 ```
 
 ---
 
-# 🎯 Skills Demonstrated
+# 💼 Skills Demonstrated
 
 - Python Development
 - Artificial Intelligence
-- Natural Language Processing
+- Natural Language Processing (NLP)
+- ATS Resume Matching
 - Resume Analytics
-- ATS Matching
 - Prompt Engineering
 - Streamlit Application Development
 - Data Processing
@@ -203,26 +196,25 @@ Suitable for Entry-Level AI Engineer Roles
 # 🚀 Future Enhancements
 
 - Multi-Resume Comparison
-- Resume Ranking
+- Resume Ranking System
 - ATS Keyword Optimization
-- Resume Score History
-- Authentication System
 - Recruiter Dashboard
+- Authentication System
 - PDF Report Generation
 - Cloud Database Integration
-- Docker Support
-- REST API Version
+- REST API Support
+- Docker Deployment
+- Multi-Language Resume Analysis
 
 ---
 
 # 👨‍💻 Author
 
-**Syed Thoufeeq**
+## Syed Thoufeeq
 
-Aspiring AI Engineer | Machine Learning Enthusiast | Generative AI Developer
+**Aspiring AI Engineer | Machine Learning Enthusiast | Generative AI Developer**
 
-GitHub:
-
+**GitHub:**  
 https://github.com/mohammadthoufeeq12190-design
 
 ---
